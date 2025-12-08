@@ -159,7 +159,7 @@ public class TugasManajemenNilaiSiswaApp extends JFrame {
             return;
         }
         
-        //Validasi 3: Cek apakah terdiri lebih dari 3 angka/huruf
+        //Validasi 3: Cek apakah terdiri lebih dari 3 huruf
         if (nama.trim().length() < 3) {
         JOptionPane.showMessageDialog(this, "Nama harus minimal 3 karakter!",
                                       "Error Validasi", JOptionPane.ERROR_MESSAGE);
